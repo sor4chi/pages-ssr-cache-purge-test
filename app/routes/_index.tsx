@@ -14,7 +14,7 @@ export const loader = () => {
 };
 
 export const headers: HeadersFunction = () => ({
-  "Cache-Control": "max-age=3600",
+  "Cache-Control": "max-age=60",
 });
 
 export default function Index() {
